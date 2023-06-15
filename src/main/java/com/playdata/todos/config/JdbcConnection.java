@@ -9,7 +9,7 @@ public class JdbcConnection {
             "?serverTimezone=Asia/Seoul&characterEncoding=UTF-8"; // 한국시간으로 변환
     private final String root = "root";
     private final String password = "1q2w3e4r!!";
-git ad
+
     public Connection getJdbc(){
 
         Connection conn;
